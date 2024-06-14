@@ -1,3 +1,4 @@
+-- Special thanks to Gotlag for these recipe functions
 function replace_ingredient(ingredients, old_ingredient, new_ingredient)
     for i,ingredient in pairs(ingredients) do
         if ingredient.name then
@@ -5,7 +6,7 @@ function replace_ingredient(ingredients, old_ingredient, new_ingredient)
                 ingredient.name = new_ingredient
             end
         elseif ingredient[1] == old_ingredient then
-                ingredient[1] = new_ingredient
+            ingredient[1] = new_ingredient
         end
     end
 end
