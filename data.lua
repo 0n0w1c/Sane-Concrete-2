@@ -25,8 +25,6 @@ end
 
 update_recipe("concrete", "iron-ore", "iron-stick")
 
---data.raw.recipe["concrete"].ingredients[2][1] = "iron-stick"
 if mods["Dectorio"] then
-    update_recipe("concrete", "iron-ore", "iron-stick")
-  --  data.raw.recipe["dect-concrete-grid"].ingredients[2][1] = "iron-stick"
+    update_recipe("dect-concrete-grid", "iron-ore", "iron-stick")
 end
