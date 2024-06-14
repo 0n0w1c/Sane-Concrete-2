@@ -1,10 +1,10 @@
 {
     "name": "Sane-Concrete-2",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "factorio_version": "1.1",
     "title": "Sane Concrete 2",
     "author": "0n0w1wc",
-    "homepage": "",
+    "homepage": "https://mods.factorio.com/mod/Sane-Concrete-2",
     "description": "Alters the concrete recipe, by replacing iron ore with iron sticks",
     "dependencies": [
         "base",
