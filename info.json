@@ -1,0 +1,10 @@
+{
+  "name": "sane-concrete-2",
+  "version": "1.0.0",
+  "factorio_version": "1.1",
+  "title": "Sane Concrete 2",
+  "author": "UntouchedWagons, mkaito, LexxyFox 0n0w1wc",
+  "homepage": "",
+  "dependencies": ["base","? Dectorio"],
+  "description": "Makes concrete use iron sticks as rebar rather than iron ore."
+}
