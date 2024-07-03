@@ -1,6 +1,6 @@
 {
     "name": "Sane-Concrete-2",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "factorio_version": "1.1",
     "title": "Sane Concrete 2",
     "author": "0n0w1c",
@@ -8,6 +8,8 @@
     "description": "Alters the concrete recipe, by replacing iron ore with an iron stick",
     "dependencies": [
         "base",
-        "? Dectorio"
+        "? Dectorio",
+        "! sane-concrete-017",
+        "! sane-concrete-016"
     ]
 }
