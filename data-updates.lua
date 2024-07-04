@@ -1,5 +1,5 @@
 -- Special thanks to Gotlag for these recipe functions
-function replace_ingredient(ingredients, old_ingredient, new_ingredient)
+local function replace_ingredient(ingredients, old_ingredient, new_ingredient)
     for i,ingredient in pairs(ingredients) do
         if ingredient.name then
             if ingredient.name == old_ingredient then
@@ -12,7 +12,7 @@ function replace_ingredient(ingredients, old_ingredient, new_ingredient)
 end
 
 
-function update_recipe(recipe, old_ingredient, new_ingredient)
+local function update_recipe(recipe, old_ingredient, new_ingredient)
     if data.raw.recipe[recipe].ingredients then
         replace_ingredient(data.raw.recipe[recipe].ingredients, old_ingredient, new_ingredient)
     end
