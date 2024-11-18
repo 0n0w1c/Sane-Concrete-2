@@ -19,11 +19,11 @@ local function replace_results(results, old_result, new_result)
 end
 
 local function update_recipe(recipe, old_item, new_item)
-    if data.raw.recipe[recipe].ingredients then
+    if data.raw.recipe[recipe] and data.raw.recipe[recipe].ingredients then
         replace_ingredient(data.raw.recipe[recipe].ingredients, old_item, new_item)
     end
 
-    if data.raw.recipe[recipe .. "-recycling"].results then
+    if data.raw.recipe[recipe .. "-recycling"] and data.raw.recipe[recipe .. "-recycling"].results then
         replace_results(data.raw.recipe[recipe .. "-recycling"].results, old_item, new_item)
     end
 end
