@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.5
+Date: 03. 01. 2024
+  Changes:
+    - Refactored the recycling recipes to again use the Quality mod, but only a specific recipe
+  Bugfixes:
+    - None
+---------------------------------------------------------------------------------------------------
 Version: 1.1.4
 Date: 03. 01. 2024
   Changes:
