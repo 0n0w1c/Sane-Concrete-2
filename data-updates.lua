@@ -21,7 +21,6 @@ local function update_recipe(recipe_name, old_item, new_item)
         local recycling = require("__quality__/prototypes/recycling")
 
         recycling.generate_recycling_recipe(recipe)
-        recipe.auto_recycle = nil
     end
 end
 
