@@ -4,7 +4,7 @@ Date: 24. 07. 2025
   Bugfixes:
     - None
   Changes:
-    - Added startup setting: Update recycling recipe (default: true)
+    - Added startup setting: Modify recycling recipe (default: true)
       Disable this setting and the recycling recipe will not be modified, results will be iron ore
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.6
