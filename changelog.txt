@@ -1,77 +1,85 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.7
+Date: 24. 07. 2025
+  Bugfixes:
+    - None
+  Changes:
+    - Added startup setting: Update recycling recipe (default: true)
+      Disable this setting and the recycling recipe will not be modified, results will be iron ore
+---------------------------------------------------------------------------------------------------
 Version: 1.1.6
 Date: 03. 01. 2025
-  Changes:
-    - None
   Bugfixes:
     - Crash on startup
+  Changes:
+    - None
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.5
 Date: 03. 01. 2025
-  Changes:
-    - Refactored the recycling recipes to again use the Quality mod, but only a specific recipe
   Bugfixes:
     - None
+  Changes:
+    - Refactored the recycling recipes to again use the Quality mod, but only a specific recipe
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.4
 Date: 03. 01. 2025
-  Changes:
-    - None
   Bugfixes:
     - Revert to previous version, not using the Quality mod to regenerate the recycling recipes
+  Changes:
+    - None
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.3
 Date: 22. 12. 2024
-  Changes:
-    - Use Quality mod to regenerate the recycling recipes
   Bugfixes:
     - None
+  Changes:
+    - Use Quality mod to regenerate the recycling recipes
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.2
 Date: 18. 11. 2024
-  Changes:
-    - None
   Bugfixes:
     - Crash when Quality mod is not active
+  Changes:
+    - None
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.1
 Date: 18. 11. 2024
-  Changes:
-    - None
   Bugfixes:
     - Recycling recipe results changed to iron stick
+  Changes:
+    - None
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: 21. 10. 2024
-  Changes:
-    - Updated for Factorio 2.0
   Bugfixes:
     - None
+  Changes:
+    - Updated for Factorio 2.0
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.3
 Date: 03. 07. 2024
-  Changes:
-    - Set previous Sane Concrete mods as incompatible
   Bugfixes:
     - None
+  Changes:
+    - Set previous Sane Concrete mods as incompatible
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: 14. 06. 2024
-  Changes:
-    - None
   Bugfixes:
     - Fixed a typo and clearified the wording of the recipe change
+  Changes:
+    - None
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: 14. 06. 2024
-  Changes:
-    - Added thumbnail.png for mod home page
   Bugfixes:
     - None
+  Changes:
+    - Added thumbnail.png for mod home page
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 13. 06. 2024
-  Changes:
-    - Initial release
   Bugfixes:
     - None
+  Changes:
+    - Initial release

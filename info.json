@@ -1,11 +1,11 @@
 {
     "name": "Sane-Concrete-2",
-    "version": "1.1.6",
+    "version": "1.1.7",
     "factorio_version": "2.0",
     "title": "Sane Concrete 2",
     "author": "0n0w1c",
     "homepage": "https://mods.factorio.com/mod/Sane-Concrete-2",
-    "description": "Modifies the concrete and concrete recycling recipes, replacing iron ore with an iron stick",
+    "description": "Modifies the concrete and optionally the concrete recycling recipes, replacing iron ore with an iron stick",
     "dependencies": [
         "base",
         "? Dectorio"
